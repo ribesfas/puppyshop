@@ -3,7 +3,7 @@
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Product"%>
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />   
-    
+ <!-- ddddd -->
 <!DOCTYPE html>
 <html>
 <head>
