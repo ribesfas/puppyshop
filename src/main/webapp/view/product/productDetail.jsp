@@ -5,15 +5,15 @@
 <link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <title>Welcome</title>
 
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="../../resources/css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="../../resources/images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="../../resources/css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- fonts -->
@@ -23,14 +23,14 @@
       <!--  -->
       <!-- owl stylesheets -->
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="../../resources/css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="../../resources/css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
 
 </head>
 <body>
-<%@ include file="header.jsp"%>
+<%@ include file="../../header.jsp"%>
  <!-- Product section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 my-5">
@@ -264,6 +264,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="coffee.js"></script>
-        <%@ include file="footer.jsp" %>
+        <%@ include file="../../footer.jsp" %>
 </body>
 </html>

@@ -33,7 +33,7 @@
                      <a href="">SALE</a>
                      <a href="">Service Center</a>
                   </div>
-                  <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+                  <span class="toggle_icon" onclick="openNav()"><img src="resources/images/toggle-icon.png"></span>
                   <div class="dropdown">
                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
                      </button>
@@ -57,11 +57,11 @@
                   <div class="header_box">
                      <div class="lang_box ">
                         <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
-                        <img src="images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom">Korean<i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
+                        <img src="resources/images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom">Korean<i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
                         </a>
                         <div class="dropdown-menu ">
                            <a href="#" class="dropdown-item">
-                           <img src="images/flag-france.png" class="mr-2" alt="flag">
+                           <img src="resources/images/flag-france.png" class="mr-2" alt="flag">
                            Japanese
                            </a>
                         </div>
