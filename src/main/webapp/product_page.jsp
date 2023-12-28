@@ -33,6 +33,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 <body>
+
+	<%@ include file="header2.jsp" %>
+
+
 <%
 	ArrayList<Product> productList = productDAO.getAllProducts();
 %>
@@ -101,7 +105,7 @@
       </div><!----주얼리 섹션 끝-->
      
 
-
+	<%@ include file="footer.jsp"%>
 
 
 </body>
