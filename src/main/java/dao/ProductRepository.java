@@ -1,9 +1,18 @@
 package dao;
 import java.util.ArrayList;
 import dto.Product;
-
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class ProductRepository {
+	private Connection conn;
+	private ResultSet rs;
+	
+	
+	
+	
 private ArrayList<Product> productList = new ArrayList<Product>();
 
 	public ProductRepository() {
