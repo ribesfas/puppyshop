@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.ArrayList"%>
-<%@ page import="dto.Product"%>
+<%@ page import="dto.ProductDTO"%>
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />   
  <!-- ddddd -->
 <!DOCTYPE html>
@@ -35,7 +35,7 @@
 <body>
 <%@ include file="../../header.jsp"%>
 <%
-	ArrayList<Product> productList = productDAO.getAllProducts();
+ArrayList<ProductDTO> productList = productDAO.getAllProducts();
 %>
 
 
@@ -51,9 +51,9 @@
                      <div class="fashion_section_2">
                         <div class="row">
                         <%
-												for (int i = 0; i < productList.size(); i++) {
-													Product product = productList.get(i);
-									%>
+                        for (int i = 0; i < productList.size(); i++) {
+                        											ProductDTO product = productList.get(i);
+                        %>
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
 								                              	

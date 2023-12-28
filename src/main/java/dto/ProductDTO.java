@@ -1,7 +1,7 @@
 package dto;
 import java.io.Serializable;
 
-public class Product implements Serializable {
+public class ProductDTO implements Serializable {
 	
 	private String product_id; //상품 아이디
 	private String product_date;  // 상품 날짜
@@ -47,13 +47,13 @@ public class Product implements Serializable {
 	}
 
 	
-	public Product() {
+	public ProductDTO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
 
-	public Product(String product_id, String product_name, Integer price) {
+	public ProductDTO(String product_id, String product_name, Integer price) {
 		super();
 		this.product_id = product_id;
 		this.product_name = product_name;
