@@ -3,7 +3,11 @@ import java.io.Serializable;
 
 public class ProductDTO implements Serializable {
 	
-	private String product_id; //상품 아이디
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5825055943154466910L;
+	private Integer product_id; //상품 아이디
 	private String product_date;  // 상품 날짜
 	private String product_name; //상품 이름
 	private Integer price; //상품 가격
@@ -53,7 +57,7 @@ public class ProductDTO implements Serializable {
 	}
 
 
-	public ProductDTO(String product_id, String product_name, Integer price) {
+	public ProductDTO(Integer product_id, String product_name, Integer price) {
 		super();
 		this.product_id = product_id;
 		this.product_name = product_name;
@@ -61,12 +65,12 @@ public class ProductDTO implements Serializable {
 	}
 
 
-	public String getProduct_id() {
+	public Integer getProduct_id() {
 		return product_id;
 	}
 
 
-	public void setProduct_id(String product_id) {
+	public void setProduct_id(Integer product_id) {
 		this.product_id = product_id;
 	}
 

@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class ReviewDTO implements Serializable{
 	private Integer review_number; //유저 아이디
 	private String review_text;  // 게시글 제목
-	private String review_star; //게시글 내용
+	private Integer review_star; //게시글 내용
 	private String user_id; //글을 쓴 유저 
 	private String review_date; //게시글 등록날짜
 	private Integer review_product_id;
@@ -23,11 +23,11 @@ public class ReviewDTO implements Serializable{
 	public void setReview_text(String review_text) {
 		this.review_text = review_text;
 	}
-	public String getReview_star() {
+	public Integer getReview_star() {
 		return review_star;
 	}
-	public void setReview_star(String review_star) {
-		this.review_star = review_star;
+	public void setReview_star(int i) {
+		this.review_star = i;
 	}
 	public String getUser_id() {
 		return user_id;

@@ -63,7 +63,7 @@
             padding: 8px;
             border: none;
             border-radius: 3px;
-            background-color: #3498db;
+            background-color: #30302e;
             color: white;
             cursor: pointer;
         }
@@ -73,9 +73,14 @@
 </style>
 </head>
 <body>
+	<%@ include file="../../header2.jsp"%>
 <div class="signup-container">
         <h2>Sign Up</h2>
         <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="userid">UserID:</label>
+                <input type="text" id="userid" name="userid" required>
+            </div>
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -99,11 +104,13 @@
             <div class="form-group">
                 <label for="gender">Gender:</label>
                 <select id="gender" name="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="O">Other</option>
                 </select>
             </div>
+              <input type="hidden" id="user_group" name="user_group" value="1">
+            
             <div class="form-group">
                 <input type="submit" value="Sign Up">
             </div>
